@@ -1,4 +1,5 @@
-﻿header{
+﻿/*-----header start-----*/
+header{
     background-color:#191919;
 }
 .logo{
@@ -13,6 +14,58 @@
     color:#FFF;
     font-weight: bold;
 }
+/*-----header end-----*/
+
+/*-----content start-----*/
+.description{
+    margin-top:43px;
+    color:grey;
+}
+.description h2{
+    padding:10px 0;
+}
+.main-img{
+    padding:30px 0;
+}
+.link-color{
+    color:orange;
+}
+.content-border{
+    border-right:1px solid lightgray;
+}
+.small-container{
+    height:50px;
+}
+.button-page{
+    padding-bottom:40px;
+}
+/*-----content end-----*/
+
+/*-----right sidebar start-----*/
+.photo-author{
+    padding:25px 0;
+    width:220px;
+}
+.recent-post{
+    margin-top:40px;
+}
+.post-list li{
+    border-bottom:1px solid lightgrey;
+    padding:18px 0;
+}
+.post-list li:last-child{
+    border:none;
+}
+.social-block{
+    margin-top:60px;
+}
+/*-----right sidebar end-----*/
+
+/*-----footer start-----*/
+footer{
+    background-image: url("img/footerBackground.jpg");
+}
+/*-----footer end-----*/
 body{
-    background-image: url("img/blog.jpg");
+    /*background-image: url("img/blog.jpg");*/
 }
