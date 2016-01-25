@@ -1,6 +1,10 @@
-﻿/*-----header start-----*/
+﻿body{
+    /*background-image: url("img/blog.jpg");*/
+    background-color:#f4f2ee;
+}
+/*-----header start-----*/
 header{
-    background-color:#191919;
+    background-image: url("img/Background.jpg");
 }
 .logo{
     margin-top:20px;
@@ -63,9 +67,22 @@ header{
 
 /*-----footer start-----*/
 footer{
-    background-image: url("img/footerBackground.jpg");
+    background-image: url("img/Background.jpg");
+    color:#FFF;
+}
+.footer-container{
+    padding-top:60px;
+    padding-bottom:140px;
+}
+.footer-container img{
+    margin-bottom:20px;
+}
+.gallery-img{
+    margin:0 15px;
+}
+.copyright{
+    font-weight: bold;
+    padding-top:24px;
+    padding-bottom:35px;
 }
 /*-----footer end-----*/
-body{
-    /*background-image: url("img/blog.jpg");*/
-}
