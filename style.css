@@ -18,6 +18,10 @@ header{
     color:#FFF;
     font-weight: bold;
 }
+.navigation a:hover{
+    color:orange;
+    text-decoration: none;
+}
 /*-----header end-----*/
 
 /*-----content start-----*/
@@ -34,6 +38,10 @@ header{
 .link-color{
     color:orange;
 }
+.link-color:hover{
+    color:grey;
+    text-decoration: none;
+}
 .content-border{
     border-right:1px solid lightgray;
 }
@@ -42,6 +50,9 @@ header{
 }
 .button-page{
     padding-bottom:40px;
+}
+.pages img:hover{
+    opacity: 0.5;
 }
 /*-----content end-----*/
 
@@ -63,6 +74,9 @@ header{
 .social-block{
     margin-top:60px;
 }
+.social-block a:hover{
+    opacity: 0.5;
+}
 /*-----right sidebar end-----*/
 
 /*-----footer start-----*/
@@ -77,6 +91,9 @@ footer{
 .footer-container img{
     margin-bottom:20px;
 }
+.gallery a:hover{
+    opacity: 0.5;
+}
 .gallery-img{
     margin:0 15px;
 }
@@ -85,4 +102,6 @@ footer{
     padding-top:24px;
     padding-bottom:35px;
 }
+
+
 /*-----footer end-----*/
